@@ -1,0 +1,391 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn {
+    background-color: #f5ffa8;
+    color: #2a2631;
+    height: 38px;
+}
+
+.main-wrap {
+    background-color: #fff;
+    width: 100%;
+    margin: auto;
+}
+
+.main-body {
+    width: 100%;
+    height: auto;
+    margin: 70px auto;
+}
+
+.music-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.music {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.music img {
+    width: 100%;
+}
+
+.card-body-name {
+    opacity: 0;
+    text-align: center;
+    color: rgb(213, 213, 214);
+    font-size: 1.1em;
+    transform: translate(0, -430px);
+    transition: all 0.6s ease-out;
+}
+
+.music:hover .card-body-name {
+    opacity: 1;
+    text-align: center;
+    color: rgb(213, 213, 214);
+    font-size: 1.1em;
+    transform: translate(0, -400px);
+    cursor: pointer;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    position: relative;
+    top: -250px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.music:hover .card-body {
+    opacity: 0.4;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.navbarBrand {
+    width: 17%;
+}
+
+.navbarBrand span {
+    font-size: 1.3em;
+    color: #2a2631;
+    white-space: nowrap;
+}
+
+.side-drawer {
+    width: 70%;
+    /* display: flex;
+    justify-content: end; */
+}
+
+.side-drawer form {
+    margin: 0 20px;
+}
+
+.backdrop {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.644);
+    display: none;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.side-drawer-toggle {
+    display: none;
+}
+
+.navItems {
+    display: flex;
+}
+
+.pagination-wrap {
+    max-width: 260px;
+    margin: auto;
+}
+
+.pagination {
+    margin: 0 0 30px;
+}
+
+.music-modal {
+    position: relative;
+    width: 85%;
+    height: auto;
+    display: none;
+    margin: auto;
+}
+
+.music-modal.act {
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: auto;
+}
+
+.text-dark-X {
+    position: absolute;
+    font-size: 1.5em;
+    color: #2a2631;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.fas {
+    color: #2a2631;
+}
+
+.music-modal-wrap {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    background: #f4f8d2;
+    border-radius: 15px;
+}
+
+.music-modal-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+}
+
+.detail {
+    width: 40%;
+    height: 100%;
+}
+
+.detail img {
+    width: 100%;
+}
+
+.tracks {
+    width: 60%;
+    height: 450px;
+    margin-left: 50px;
+    overflow: scroll;
+    background-color: #f4f8d2;
+}
+
+.track {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    width: 90%;
+    color: #2a2631;
+    padding: 10px 20px 0 0;
+    box-sizing: border-box;
+    font-size: 0.8em;
+}
+
+.track a svg {
+    margin-top: 5px;
+}
+
+.track > span {
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 60px 10px 30px;
+    font-size: 0.6em;
+}
+
+.track:hover > span {
+    background-color: #2a2631;
+    border-radius: 80%;
+    color: #fff;
+    transition: All 0.3s;
+}
+
+.track a:visited,
+.track a:link {
+    color: #2a2631;
+}
+
+.track em {
+    font-size: 0.4em;
+    color: #a5a589;
+}
+
+.modal-body em a:visited,
+.modal-body em a:link {
+    color: #a5a589;
+    text-decoration: none;
+}
+
+.modal-body em:hover a {
+    color: #cae241;
+}
+
+.iconify {
+    float: right;
+}
+
+.modal-body {
+    width: 100%;
+    height: 150px;
+}
+
+.modal-body-name {
+    position: relative;
+    color: #a5a589;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-body-album {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2a2631;
+    white-space: wrap;
+}
+
+.modal-body-span {
+    color: #a5a589;
+    margin-left: 5px;
+}
+
+@media (max-width: 1100px) {
+    .music-modal {
+        width: 95%;
+    }
+
+    .music-modal.act {
+        width: 95%;
+    }
+    .tracks {
+        height: 380px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .modal-body-name {
+        font-size: 0.8em;
+    }
+
+    .modal-body-album {
+        font-size: 1.7em;
+    }
+
+    .modal-body-span {
+        font-size: 0.8em;
+    }
+
+    .side-drawer-toggle {
+        display: block;
+    }
+
+    .navItems {
+        flex-direction: column;
+        transform: translate(10px, 800px);
+        z-index: 4;
+        transition: all 0.3s ease-out;
+    }
+
+    .nav-item {
+        margin-top: 10px;
+    }
+
+    .side-drawer form {
+        margin: 20px 0;
+        width: 270px;
+    }
+    .side-drawer form input {
+        width: 40%;
+    }
+
+    .side-drawer form button {
+        width: 15%;
+    }
+
+    .side-drawer {
+        width: 50%;
+        position: fixed;
+        left: 0;
+        background-color: #e8ecd5e7;
+        height: 1600px;
+        z-index: 3;
+        transform: translateX(-100%);
+        transition: all 0.1s ease;
+        transition-delay: 0.2s;
+    }
+
+    .side-drawer-toggle {
+        font-size: 2em;
+        border-radius: 10px;
+        background-color: #fff;
+    }
+
+    .side-drawer.act {
+        transform: translateX(0%);
+    }
+    .backdrop.act {
+        position: fixed;
+        height: 1600px;
+        display: block;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 900px) {
+    .tracks {
+        height: 350px;
+    }
+
+    .track {
+        font-size: 0.7em;
+    }
+
+    .modal-body-name {
+        font-size: 0.7em;
+    }
+
+    .modal-body-album {
+        font-size: 1.3em;
+    }
+
+    .modal-body-span {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 800px) {
+    .music-modal-content {
+        flex-direction: column;
+    }
+
+    .detail {
+        width: 90%;
+        margin: auto;
+    }
+
+    .tracks {
+        width: 100%;
+        margin: auto;
+    }
+
+    .modal-body-name {
+        font-size: 0.9em;
+    }
+
+    .modal-body-album {
+        font-size: 1.3em;
+    }
+
+    .modal-body-span {
+        font-size: 1em;
+    }
+}
