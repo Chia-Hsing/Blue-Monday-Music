@@ -21,14 +21,11 @@ that is great
 
 
 # App Display
-![image](https://drive.google.com/uc?export=view&id=1WsR_Vis7RjI2h-PSO8I1sMkt7Z1AwWw4)
+![image](https://drive.google.com/uc?export=view&id=1Mt_uqoCqUOvwuDDmDLy29uDG23HXL6lm)
 
-![image](https://drive.google.com/uc?export=view&id=17qcQKFw9i8_P5zloQuR0P2fzX7z98rzJ)
-
-![image](https://drive.google.com/uc?export=view&id=1_oEaXYlZse_jzyGgyTItb9ru1Q76dCtq)
+![image](https://drive.google.com/uc?export=view&id=17axi_UZH9MVcWCIKBrj3TOL_v7UWB9bI)
 
 # Need To Be Done
- - responsive website design
  - favorite alumes 
  - music player
  - every week playlist
