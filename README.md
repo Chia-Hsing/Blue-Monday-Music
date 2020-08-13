@@ -8,7 +8,7 @@ There are still lots of parts that need to be improved, so I will keep updating 
  ## How to get access token
  - Sign in your Spotify account on https://developer.spotify.com/dashboard/login and create an App.
  - Get the __Client ID__ and __Client Secret__.
- - Click __EDIT SETTINGS__ then enter any url in __Redirect URIs__ field.
+ - Click __EDIT SETTINGS__ then enter any URL in the __Redirect URIs__ URIs field.
  - You can find __Authorization Scope__ you need on https://developer.spotify.com/documentation/general/guides/scopes/ .
  - Enter this url https://accounts.spotify.com/authorize?client_id=[ClientID]&response_type=code&redirect_uri=[RedirectURIs]&scope=[AuthorizationScope] and the __code__ will be on the rear of url it response.
  - Enter the code below on terminal : 
