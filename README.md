@@ -1,7 +1,7 @@
 # Blue-Monday-Music
-Fetch the newest released albums and singles from Spotify web API. All the UI and web structure is inspired by the fancy music website [Noon Pacific](https://noonpacific.com/). 
+Fetch the newest released albums and singles from Spotify web API. All the UI and web structure is inspired by the fascinating music website [Noon Pacific](https://noonpacific.com/). 
 
-There are still lots of parts need to be improved, so I will keep updting this side projects. 
+There are still lots of parts that need to be improved, so I will keep updating this side project. 
 
 # APIs
 
