@@ -27,9 +27,9 @@ There are still lots of parts that need to be improved, so I will keep updating 
 
 # App Display
 
-![image](https://drive.google.com/uc?export=view&id=1Mt_uqoCqUOvwuDDmDLy29uDG23HXL6lm)
+![image](https://github.com/Chia-Hsing/Blue-Monday-Music/blob/master/1.png)
 
-![image](https://drive.google.com/uc?export=view&id=17axi_UZH9MVcWCIKBrj3TOL_v7UWB9bI)
+![image](https://github.com/Chia-Hsing/Blue-Monday-Music/blob/master/2.png)
 
 # Need To Be Done
 
