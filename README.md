@@ -2,7 +2,11 @@
 
 Fetch the newest released albums and singles from Spotify web API. All the UI and web structure is inspired by the fascinating music website [Noon Pacific](https://noonpacific.com/). 
 
-There are still lots of parts that need to be improved, so I will keep updating this side project. 
+There are still lots of parts that need to be improved, so I will keep updating this side project.
+
+ - Use AJAX to fetch data from Spotify API endpoint.
+ - RWD responsive web design.
+ - Use Bootstrap as the UI design library.
 
 # APIs
 
