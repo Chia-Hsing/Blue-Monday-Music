@@ -7,6 +7,10 @@ There are still lots of parts that need to be improved, so I will keep updating 
  - Use AJAX to fetch data from Spotify API endpoint.
  - RWD responsive web design.
  - Use Bootstrap as the UI design library.
+ 
+# Live Demo
+
+[Blue Monday Music](https://chia-hsing.github.io/Blue-Monday-Music/)
 
 # APIs
 
@@ -42,6 +46,4 @@ There are still lots of parts that need to be improved, so I will keep updating 
  - every week playlist
  
 
-# Live Demo
 
-[Blue Monday Music](https://chia-hsing.github.io/Blue-Monday-Music/)
