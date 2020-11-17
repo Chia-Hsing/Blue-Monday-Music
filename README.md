@@ -10,7 +10,7 @@ There are still lots of parts that need to be improved, so I will keep updating 
  
 # Live Demo
 
-[Blue Monday Music](https://chia-hsing.github.io/Blue-Monday-Music/)
+[Blue Monday Music](https://chia-hsing.github.io/Blue-Monday-Music-JS/)
 
 # APIs
 
